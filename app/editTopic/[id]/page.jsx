@@ -1,4 +1,4 @@
-'use client'
+
 
 import EditTopicForm from "@/app/components/EditTopicForm";
 import Error from "next/error";
