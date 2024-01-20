@@ -5,7 +5,7 @@ import Error from "next/error";
 
 const getTopicById = async (id) => {
   try {
-    const res = await fetch(`http://localhost:3000/api/topics/${id}`, {
+    const res = await fetch(`http://127.0.0.1:3000/api/topics/${id}`, {
       cache: "no-store",
     });
 
